@@ -19,3 +19,9 @@ puts "----------"
 # Add some data into employees. Here's an example of one (note how it differs from how you create stores): @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
 # Go ahead and create some more employees using the create method. You can do this by making multiple calls to create (like you have before.) No need to assign the employees to variables though. Create them through the @store# instance variables that you defined in previous exercises. Create a bunch under @store1 (Burnaby) and @store2 (Richmond). Eg: @store1.employees.create(...).
 
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Jeyna", last_name: "Kim", hourly_rate: 60)
+@store1.employees.create(first_name: "John", last_name: "Mayer", hourly_rate: 60)
+@store2.employees.create(first_name: "Lily", last_name: "Molin", hourly_rate: 80)
+@store2.employees.create(first_name: "Baily", last_name: "Cori", hourly_rate: 80)
+@store2.employees.create(first_name: "Paul", last_name: "Kim", hourly_rate: 80)
